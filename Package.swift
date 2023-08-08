@@ -33,6 +33,7 @@ let package = Package(
             .library(name: "CppWrapper", targets: ["CppWrapper"]),
         ],
         dependencies: [
+            .package(url: "https://github.com/SwiftGen/SwiftGenPlugin", from: "6.6.0"),
         ],
         targets: [
             .target(name: "CppWrapper"),
