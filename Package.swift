@@ -34,7 +34,7 @@ let package = Package(
         ],
         dependencies: [
             .package(url: "https://github.com/SwiftGen/SwiftGenPlugin", from: "6.6.0"),
-            .package(url: "https://github.com/apple/swift-docc-plugin", from: "1.1.0"),
+            .package(url: "https://github.com/apple/swift-docc-plugin", from: "1.3.0"),
         ],
         targets: [
             .target(name: "CppWrapper"),
